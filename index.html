@@ -37,20 +37,29 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
               <li class="nav-item">
                 <a class="nav-link active mx-1" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-1" href="#">about</a>
+                <a class="nav-link mx-1" href="#about">about</a>
               </li>
-            
-                <a class="nav-link active mx-1" aria-current="page" href="#">project</a>
-                <a class="nav-link active mx-1" aria-current="page" href="#">service</a>
-                <a class="nav-link active mx-1" aria-current="page" href="#">FAQ</a>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#project">project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#service">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#FAQ">FAQ</a>
+              </li>
+              </ul>
+              <div>
                 <i class="fa-brands fa-linkedin fs-5 mx-2"></i>
-          <i class="fa-brands fa-square-facebook  fs-5 mx-2"></i>
+                <i class="fa-brands fa-square-facebook  fs-5 mx-2"></i>
+              </div>
           </div>
-          
+
         </div>
       </nav>
       <!-- navbar -->
@@ -69,7 +78,7 @@
         </div>
        <!-- hero -->
         <!-- about -->
-         <div class="about">
+         <div class="about" id="about">
             <div class="container-fluid text-white">
                 <div class="row row-cols-lg-2 row-cols-1">
                     <!-- 992 ke atas 2 atas, di bawah itu 1 kolom -->
@@ -88,14 +97,15 @@
          </div>
         <!-- about -->
          <!-- project -->
-          <div class="project">
+          <div class="project" id="project">
             <div class="container">
                 <div class="row">
                     <div class="col">
-<h1>detail project <br>yang telah diselesaikan</h1>
+<h1 class="my-5">detail project <br>yang telah diselesaikan</h1>
 
                     </div>
                 </div>
+                <hr>
                 <div class="row row-cols-lg-3 row-cols-1 ">
             <div class="col">
                 <img class="w-100 my-2" src="assets/img/projects/projects-1.jpg" alt="">
@@ -103,22 +113,22 @@
                 <p>Proyek pembangunan rumah tinggal bergaya modern minimalis dengan desain fungsional dan estetis. <p>
             </div>
            <div class="col">
-            <img class="w-100" src="assets/img/projects/projects-2.jpg" alt="assets/img/projects/projects-2.jpg">
+            <img class="w-100 my-2" src="assets/img/projects/projects-2.jpg" alt="assets/img/projects/projects-2.jpg">
             <h3>restaurant</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque?<p>
            </div>
              <div class="col">
-                <img class="w-100" src="assets/img/projects/projects-3.jpg" alt="">
+                <img class="w-100 my-2" src="assets/img/projects/projects-3.jpg" alt="">
                 <h3>apatement</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque?<p>
              </div>
            <div class="col">
-            <img class="w-100" src="assets/img/projects/projects-4.jpg" alt="">
+            <img class="w-100 my-2" src="assets/img/projects/projects-4.jpg" alt="">
             <h3>scholl</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Ipsa, eaque?<p>
            </div>
              <div class="col">
-                <img class="w-100" src="assets/img/projects/projects-5.jpg" alt="">
+                <img class="w-100 my-2" src="assets/img/projects/projects-5.jpg" alt="">
                 <h3>interior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque?<p>
              </div>
@@ -127,7 +137,195 @@
             </div>
           </div>
          <!-- project -->
-    <h1></h1>
+          <!-- service -->
+    <div class="service justify-content-center align-items-center" id="service">
+      <div class="container">
+        <div class="row ">
+          <div class="col">
+            <h1 class="my-5">layanan <br> yang dapat diberikan</h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row row-cols-lg-2 row-cols-1">
+          <div class="col d-flex">
+            <img class=" me-1" src="assets/img/services/services-1.jpg" alt="">
+            <img class=" me-1" src="assets/img/services/services-2.jpg" alt="">
+          </div>
+          <div class="col d-flex align-items-center ">
+            <ul>
+            <li class="my-4"><h5><i class="fa-regular fa-circle-check"></i>&nbsp;Berkerjasama dengan Design Hebat</h5></li>
+            <li class="my-4"><h5><i class="fa-regular fa-circle-check"></i>&nbsp;Alat dan SDM yang Berkualitas serta Berpengalaman</h5></li>
+            <li class="my-4"><h5><i class="fa-regular fa-circle-check"></i>&nbsp;Tersedia Produk - Produk Interior</h5></li>
+            <li class="my-4"><h5><i class="fa-regular fa-circle-check"></i>&nbsp;90% Dapat Mengerjakan Project sesuai Target</h5></li>
+            <li class="my-4"><h5><i class="fa-regular fa-circle-check"></i>&nbsp;Harga yang Terjangkau</h5></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- service -->
+
+    <!-- FAQ -->
+     <div class="FAQ" id="FAQ">
+      <div class="container">
+        <div class="row">
+          <h1 class="my-5">pertanyaan <br> yang biasa ditanyakan</h1>
+        </div>
+        <hr>
+        <div class="row my-4 row-cols-lg-2 ">
+          <div class="col my-2  ">
+            <!-- accordion1 -->
+            <div class="accordion my-2" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button  p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Bagaimana Cara Daftarnya?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Untuk mendaftar</strong> cukup isi formulir pendaftaran dan konfirmasi data diri. Setelah itu, tim kami akan menghubungi Anda untuk penjelasan detail proyek dan langkah selanjutnya.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- accordion1 -->
+
+
+          </div>
+          <div class="col my-2">
+            <!-- accordion2 -->
+            <div class="accordion my-2" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                  Apakah Ada Forum Diskusi?
+                </button>
+              </h2>
+              <div id="collapsetwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Untuk bergabung</strong> cukup isi formulir pendaftaran dan konfirmasi data diri. Setelah itu, tim kami akan menghubungi Anda untuk penjelasan detail proyek dan langkah selanjutnya.
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- accordion2 -->
+          </div>
+          <div class="col my-2">
+            <!-- accordion3 -->
+            <div class="accordion my-2" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                    Berapa DP Pembangunannya?
+                  </button>
+                </h2>
+                <div id="collapsethree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              </div>
+                </div>
+            <!-- accordion3 -->
+             <div class="col my-2">
+              <!-- accordion4 -->
+              <div class="accordion my-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                      Apakah Produk - Produk Interiornya Mahal?
+                    </button>
+                  </h2>
+                  <div id="collapsefour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                </div>
+                  </div>
+
+              <!-- accordion4 -->
+               <div class="col my-2">
+                <!-- accordion5 -->
+                <div class="accordion my-2" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                        Apakah Sudah Terverifikasi?
+                      </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                    </div>
+
+                <!-- accordion5 -->
+                 
+                    <div class="col my-2">
+                      <!-- accordion6 -->
+                      <div class="accordion my-2" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button p-3 mb-2 bg-dark-subtle text-dark-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+                              Apakah Dapat Menawar Harga?
+                            </button>
+                          </h2>
+                          <div id="collapsesix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                  <!-- accordion6 -->
+                    </div>
+                 
+               </div>
+             </div>
+          </div>
+        
+          
+    <!-- FAQ -->
+<!-- footer -->
+ <div class="futher bg-black bg-gradient  ">
+  <div class="container">
+    <div class="row row-cols-lg-3 row-cols-1">
+      <div class="col text-white my-5">
+        <h1>Ngoding.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corporis laborum saepe quo ipsum, earum excepturi aut quasi in magni voluptas quas provident officiis. Culpa officiis natus aliquid deserunt  aliquam.</p>
+      </div>
+      <div class="col  text-white my-5">
+        <h3 class="mx-4">Menu</h3>
+       <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Project</li>
+        <li>Service</li>
+        <li>FAQ</li>
+       </ul>
+      </div>
+      <div class="col col text-white my-5">
+        <h3 class="mx-4">Contact</h3>
+        <ul>building@gmail.com</ul>
+        <ul>+62 1234 5678 901</ul>
+        <ul>@buildingID (Telegram)</ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-white text-center">
+        <h5>© Copyright 2025 by rafie taufik, All Right Reserved.</h>
+      </div>
+    </div>
+  </div>
+ </div>
+<!-- footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

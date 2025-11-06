@@ -1,8 +1,10 @@
 * {
   font-family: poppins, sans-serif;
+  list-style-type: none;
 }
 .hero {
-  background-image: linear-gradient(rgb(1, 1, 1,0.75)),url(../assets/img/hero.jpg);
+  background-image: linear-gradient(rgb(1, 1, 1, 0.75)),
+    url(../assets/img/hero.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
@@ -11,11 +13,23 @@
   background-position: center;
 }
 .navbar i {
-    color: white;
+  color: white;
 }
-.project img{
-height: 250px;
+.navbar {
+  transition: 0.5s;
 }
-.project {
-   
+.project img {
+  height: 250px;
+}
+.scrolling-active {
+  background-color: blue;
+}
+.service img {
+  width: 50%;
+}
+.service i {
+  color: #6b9e6f;
+}
+.about {
+  scroll-margin-top: 360px;
 }
